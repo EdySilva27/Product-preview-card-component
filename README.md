@@ -36,7 +36,7 @@ The project's proposal is to create a responsive landing page for desktop and mo
 ## 🔖 Layout
 
 
-You can view the layout of the project a [THIS LINK](https://edysilva27.github.io/projeto_media_queries/).
+You can view the layout of the project a [THIS LINK](https://edysilva27.github.io/Product-preview-card-component/).
 
 ## :memo: License
 
