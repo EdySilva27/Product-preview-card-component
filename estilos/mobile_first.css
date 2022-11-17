@@ -1,0 +1,102 @@
+/*Versão Moblie First*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');/*'Montserrat', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');/*font-family: 'Fraunces', serif;*/
+
+:root {
+    --cor01: hsl(158, 36%, 37%); /* Dark cyan */
+    --cor02: hsl(30, 38%, 92%); /* Cream */
+    --cor03: hsl(212, 21%, 14%); /* Very dark blue */
+    --cor04: hsl(228, 12%, 48%); /* Dark grayish blue */
+    --cor05: hsl(0, 0%, 100%); /* White */
+    --cor06: hsl(158, 38%, 18%);
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor02);
+}
+
+#imgMobile {
+    display: block;
+    width: 300px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#imgDesktop{
+    display: none;
+}
+
+#box {
+    width: 300px;
+    height: 330px;
+    background-color: var(--cor05);
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+#box > h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 2em; 
+    color: var(--cor03);
+    margin: 15px 0;
+}
+
+#box > h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor04);
+    letter-spacing: .2em;
+}
+
+#box > p {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor04);
+    line-height: 1.5em;  
+}
+
+#box > .price {
+    color: var(--cor01);
+    font-family: 'Fraunces', serif;
+    font-size: 2em;
+}
+
+p > span {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor04);
+    font-size: .5em; 
+    position: absolute;
+    margin-left: 20px;
+    text-decoration: line-through;
+}
+
+#box > a {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--cor01);
+    text-decoration: none;
+    color: var(--cor05);
+    font-size: 1em;
+    padding: 14px;
+    display: block;
+    width: 260px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+a > svg {margin-right: 20px;}
+
+#box > a:hover{
+    background-color: var(--cor06);
+}

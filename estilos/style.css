@@ -1,0 +1,55 @@
+
+@media  screen and (min-width: 567.98px) {
+    .imagem > #imgMobile {
+        display: none;
+    }
+
+    .imagem > #imgDesktop{
+        display: block;
+        width: 300px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    main {
+        display: flex;
+    }
+
+    .container > #box {
+        width: 300px;
+        height: 450px;
+        background-color: var(--cor05);
+        padding: 20px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    
+    .container > #box > h1 {
+        font-family: 'Fraunces', serif;
+        font-size: 2.5em; 
+        color: var(--cor03);
+        margin: 20px 0;
+    }
+
+    .container > #box > h2 {
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 10px;
+        color: var(--cor04);
+        letter-spacing: .2em;
+        font-size: 1.1em;
+    }
+
+    .container > #box > p {
+        font-family: 'Montserrat', sans-serif;
+        margin: 20px 0;
+        color: var(--cor04);
+        line-height: 1.5em; 
+        font-size: 1.1em; 
+    }
+
+    .container > #box > .price {
+        color: var(--cor01);
+        font-family: 'Fraunces', serif;
+        font-size: 2em;
+        margin: 25px 0;
+    }
+    
+}
